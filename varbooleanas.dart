@@ -1,3 +1,5 @@
+// ignore_for_file: unnecessary_null_comparison
+
 void main() {
   //Para que el valor sea nulo se debe agregar el signo de interrogación "?"
   bool? x; 
@@ -13,6 +15,7 @@ void main() {
     if(x){
       print('X es verdadera');
     }
+    // ignore: dead_code
     else{
       print('X es falsa');
     }
